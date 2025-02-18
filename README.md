@@ -1,7 +1,7 @@
-# StepperForm
+# SteFo
 
 ## Overview
-StepperForm is an Angular stepper form built with Angular Material, featuring custom and built-in validation and state-based submission using Angular Router.
+SteFo is an Angular stepper form built with Angular Material, featuring custom and built-in validation and state-based submission using Angular Router.
 
 ## Features
 - Multi-step form using Angular Material Stepper
