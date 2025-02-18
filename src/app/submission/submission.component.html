@@ -1,0 +1,15 @@
+<div *ngIf="submittedData" class="submitted-data">
+    <h1>Submissions -></h1>
+    <hr>
+    <h1>{{applicationStatus}}</h1>
+    <p><strong>First Name:</strong> {{ submittedData.firstName }}</p>
+    <p><strong>Last Name:</strong> {{ submittedData.lastName }}</p>
+    <p><strong>Gender:</strong> {{ submittedData.gender }}</p>
+    <p><strong>Email:</strong> {{ submittedData.email }}</p>
+    <p><strong>Phone:</strong> {{ submittedData.phone }}</p>
+    <p><strong>PMS Rating Oct 23:</strong> {{ submittedData.pmsRatingOct23 }}</p>
+    <p><strong>PMS Rating Apr 24:</strong> {{ submittedData.pmsRatingApr24 }}</p>
+    <p><strong>PMS Rating Oct 24:</strong> {{ submittedData.pmsRatingOct24 }}</p>
+    <p><strong>Skills:</strong> {{ submittedData.skills.join(', ') }}</p>
+    <p><strong>Cover Note:</strong> {{ submittedData.coverNote }}</p>
+</div>

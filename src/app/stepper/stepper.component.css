@@ -1,0 +1,14 @@
+.forms-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+
+.forms-container mat-form-field{
+    width: 500px;
+}
+
+.form-field-container div{
+    margin: 30px;
+}
